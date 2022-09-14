@@ -215,3 +215,23 @@ body{
     height: 300px;
     width: 315px;
 }
+@media(max-width:1000px){
+    .container{
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .Intrest ul{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:600px){
+    .course .box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .course .box h4{
+         padding-bottom: 20px;
+    }
+    .Intrest ul{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
